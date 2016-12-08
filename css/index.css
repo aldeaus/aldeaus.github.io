@@ -11,6 +11,7 @@ body {
     height:100vw;
     position:fixed;
     margin-left:0vw;
+    border-right:0.1vw solid black;
 }
 .home,.projects,.about {
   height:5vw;
@@ -20,7 +21,8 @@ body {
   margin-top:1vw;
   margin-left:2vw;
   font-size:4vw;
-  text-align:center;    
+  text-align:center;
+  border-radius:5vw;    
 }
 .home:active,.projects:active,.about:active {
     border:none;

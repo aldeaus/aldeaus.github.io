@@ -1,0 +1,124 @@
+.chooseSide {
+  width:31vw;
+  height:10vw;
+  position:fixed;
+  top:15vw;
+  left:35vw;
+  z-index:2;
+  display:none;
+  background-color:#d8d2c9;
+}
+.chooseTitle {
+  font-size:3vw;
+  text-align:center;
+  margin-top:0vw;
+  color:#ff6a00;
+}
+.sideX {
+  height:6vw;
+  width:6vw;
+  background-color:#ff6a00;
+  position:absolute;
+  top:3.5vw;
+  left:5vw;
+  color:#301806;
+}
+.sideO {
+  height:6vw;
+  width:6vw;
+  position:absolute;
+  top:3.5vw;
+  left:20vw;
+  background-color:#ff6a00;
+  color:#301806;
+}
+.sideX p {
+  font-size:7vw;
+  margin-top:-1vw; 
+  margin-left:0.5vw;
+}
+.sideO p {
+  font-size:7vw;
+  margin-top:-1vw;
+  margin-left:0.5vw;
+}
+.boardgame {
+  height:35vw;
+  width:30vw;
+  margin-top:1.5vw;
+  margin-left:35vw;
+  background-color:#301806;
+  border-radius:1vw;
+}
+.playerScore, .drawsCount, .AIScore {
+  height:4vw;
+  width:5vw;
+  position:relative;
+  display:inline-block;
+  top:1vw;
+  background-color:white;
+  border:0.3vw solid #ff6a00;
+  border-radius:0.2vw;
+  margin-bottom:-0.8vw;
+}
+.playerScore {
+  left:7vw;
+}
+.title {
+  margin-top:0vw;
+  font-size:1vw;
+  text-align:center;
+  color:#ff6a00;
+}
+.score {
+  margin-top:-1.2vw;
+  font-size:2.5vw;
+  text-align:center;
+  color:#ff6a00;
+  
+}
+.drawsCount {
+  left:6.55vw;
+}
+.AIScore {
+  left:6.1vw;
+  background-color:white;
+}
+.board {
+  height:25vw;
+  width:25vw;
+  position:relative;
+  top:2vw;
+  left:2.5vw;
+  background-color:white;
+  text-align:center;
+  border-collapse:collapse;
+  font-size:6vw;
+}
+td {
+  height:7vw;
+  width:7vw;
+  border:1vw solid #301806;  
+   
+}
+.reset {
+  height:2.5vw;
+  width:5.5vw;
+  position:relative;
+  top:0.5vw;
+  left:2vw;
+  background-color:#ff6a00;
+}
+.reset p {
+  font-size:1.6vw;
+  text-align:center;
+  color:#301806;
+  padding-top:0.3vw;
+  
+}
+.gameMessage {
+  font-size:3vw; 
+  text-align:center;
+  margin-top:-2.5vw;
+  display:none;
+}
