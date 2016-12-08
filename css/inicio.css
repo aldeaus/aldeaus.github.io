@@ -1,0 +1,17 @@
+.navbar {
+    background-color:grey;
+    width:20vw;
+    height:100vw;
+}
+.resume {
+    display:inline-block;
+    float:left;
+    width:80vw;
+    height:100vw;
+    background-color:lightblue;
+}
+.footer {
+    height:5vw;
+    width:100vw;
+    background-color:red;
+}
