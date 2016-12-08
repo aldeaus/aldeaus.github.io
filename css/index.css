@@ -5,22 +5,26 @@
     float:left;
     margin-left:0px;
 }
-.home .projects .about {
+.home,.projects,.about {
   height:5vw;
   width:15vw;
   background-color:#a3a8af;
   border: 0.2vw solid #272828;
-  margin-left:0.9vw;
+  margin-top:1vw;
+  margin-left:2vw;
   font-size:4vw;
   text-align:center;    
 }
-ul:active {
+.home:active,.projects:active,.about:active {
     border:none;
+    height:5.2vw;
+    width:15.2vw;
+    margin-bottom:1.1vw;
 }
 
 .resume {
     display:inline-block;
-    width:75vw;
+    width:70vw;
     height:100vw;
     background-color:lightblue;
     margin-right:0px;
@@ -29,5 +33,6 @@ ul:active {
     height:5vw;
     width:100vw;
     margin-top:0px;
-    background-color:red;
+    padding:0px;
+    background-color:rgrey;
 }
