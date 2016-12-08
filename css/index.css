@@ -2,11 +2,11 @@
     background-color:grey;
     width:20vw;
     height:100vw;
+    float:left;
 }
 .resume {
     display:inline-block;
-    float:right;
-    width:80vw;
+    width:75vw;
     height:100vw;
     background-color:lightblue;
 }
