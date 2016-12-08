@@ -6,12 +6,13 @@
     margin-left:0px;
 }
 ul {
-  height:2.5vw;
+  height:5vw;
   width:15vw;
   background-color:#a3a8af;
   border: 0.2vw solid #272828;
-  margin-left:1vw;
-  font-size:5vw;    
+  margin-left:0.9vw;
+  font-size:4vw;
+  text-align:center;    
 }
 ul:active {
     border:none;
