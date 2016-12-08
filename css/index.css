@@ -1,9 +1,16 @@
+body {
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.title {
+    float:right;
+}
 .navbar {
     background-color:grey;
     width:20vw;
     height:100vw;
-    float:left;
-    margin-left:0px;
+    position:fixed;
+    margin-left:0vw;
 }
 .home,.projects,.about {
   height:5vw;
@@ -24,15 +31,17 @@
 
 .resume {
     display:inline-block;
-    width:70vw;
+    float:right;
+    width:78.7vw;
     height:100vw;
     background-color:lightblue;
-    margin-right:0px;
+    margin-right:0vw;
 }
 .footer {
     height:5vw;
-    width:100vw;
+    width:70vw;
     margin-top:0px;
     padding:0px;
-    background-color:rgrey;
+    background-color:burlywood;
+    clear:right;
 }
