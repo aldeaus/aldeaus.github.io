@@ -121,7 +121,7 @@ input:checked + .slider:before {
   text-align:center;
 }
 .level p {
-  font-size:2.5em;
+  font-size:2.5vw;
   margin-top:-0.3vw;
   cursor:default;
 }

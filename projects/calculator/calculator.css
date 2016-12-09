@@ -37,7 +37,7 @@
   color:black;
   font-size:1.3vw;
   height:0.5vw;
-  margin-top:1.5vw;
+  margin-top:1.3vw;
   padding-right:0.5vw;
 }
 .button {
@@ -51,17 +51,45 @@
   cursor:pointer;
 }
 .row1 {
+  margin-top:-0.3vw;
   margin-left:-0.5vw;
   margin-right:0.3vw;
 }
 .row2 {
+  margin-top:-0.3vw;    
   margin-right:0.3vw;
 }
 .row3 {
+  margin-top:-0.3vw;    
   margin-right:0.3vw;
 }
 .row4 {
- margin-right:-0.4vw;
+  margin-top:-0.3vw;      
+  margin-right:-0.4vw;
+}
+.top1 {   
+  margin-right:0.5vw;
+  margin-left:-0.5vw;   
+}
+.top2 {
+  margin-right:0.3vw;
+}
+.top3 {
+  margin-right:-0.4vw;
+}
+.bottom1 {
+    margin-top:-0.3vw;
+    margin-right:0.3vw;
+    margin-left:-0.5vw;   
+}
+.bottom2 {
+    margin-top:-0.3vw;
+    margin-right:0.3vw;
+}
+.bottom3 {
+    margin-top:-0.3vw;
+    margin-right:-0.4vw;
+    margin-left:0.3vw;
 }
 p {
   font-size:3vw;
@@ -70,12 +98,8 @@ p {
 .equals {
   margin-left:-6.85vw;
 }
-.seven {
-  margin-top:4.6vw;
-}
 .power {
   background-color:#e82e0d;
-  margin-left:-60.85vw;
 }
 .clear {
   background-color:#f2ee18;
