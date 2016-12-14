@@ -1,6 +1,6 @@
 .searchBox {
     width:60vw;
-    height:38vw; 
+    height:78vh; 
     background-color:lightgray;
     position:absolute;
     top:5vh;
@@ -9,7 +9,7 @@
 }
 .searchPanel {
     width:55vw;
-    height:5vw;
+    height:10vh;
     background-color:lightpink;
     position:relative;
     top:1vh;
@@ -19,7 +19,7 @@
 }
 .result {
     width:55vw;
-    height:30vw;
+    height:62.5vh;
     background-color:white;
     position:relative;
     top:1vh;
@@ -120,6 +120,7 @@ h3 {
     text-align:center;
 }
 .tag {
+    font-size:1vw;
     margin-left:2.5vw;
     margin-top:1.5vh;
 }

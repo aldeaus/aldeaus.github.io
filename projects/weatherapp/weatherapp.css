@@ -1,0 +1,55 @@
+body {
+  background-size:cover;
+  background-repeat:no-repeat;    
+}
+.clear {
+  background-image: url('img/clear.jpg');
+}
+.clouds {
+  background-image: url('img/clouds.jpg');
+}
+.rain {
+  background-image: url('img/rain.jpg');
+}
+.snow {
+  background-image: url('img/snow.jpg');
+}
+.thunderstorm {
+  background-image: url('img/thunderstorm.jpg');
+}
+.mist {
+   background-image: url('img/fog.jpg');
+}
+  .main {
+  width:30vw;      
+  height:30vh;
+  margin-top:28vh;
+  margin-left:14.35vw;
+  background-color:#74a8fc;
+}
+.txt {
+  text-align:center;
+  font-size:2vw;
+  color:white;
+}
+.location {
+  text-align:center;
+  font-size: 4vw;
+  color:white;
+  margin-top:2vh;
+}
+.tempval {
+    display:inline-block;
+}
+.tempbut {
+  background-color:#0843a3;
+  border-radius:0.5vw;
+  width:3vw;    
+  height:6vh;
+  color:white;
+  display:inline-block;
+    
+  padding-top:-2vh;
+  padding-left:0.4vw;
+  cursor:pointer;
+}

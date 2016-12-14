@@ -80,11 +80,21 @@ $(".title, .on-label, .off-label, .start-label, .strict-label, .level p").disabl
         }
     }
     if(playerPattern.length==pattern.length) {
+      if(pattern.length<20) {
       pattern.push(Math.floor(Math.random()*4)+1);
       $(".level p").html(pattern.length);
       playerPattern=[];
       buttonEnabled=false;
       playSequence();
+      }
+      else {
+       pattern=[];
+       playerPattern=[];
+       start=false;
+       $(".level").css("font-size", "0.7vw"); 
+       $(".level p").css("margin-top", "0vw");
+       $(".level p").html("WIN");
+      }
     }
     
     
@@ -151,6 +161,8 @@ $(".title, .on-label, .off-label, .start-label, .strict-label, .level p").disabl
        pattern=[];
        playerPattern=[];
        pattern.push(Math.floor(Math.random()*4)+1);
+       $(".level").css("font-size", "1vw"); 
+       $(".level p").css("margin-top", "-0.3vw");
        $(".level p").html(pattern.length);
        playSequence();
      }  
@@ -173,8 +185,10 @@ $(".title, .on-label, .off-label, .start-label, .strict-label, .level p").disabl
 $(".slider").on("click", function() {
   
           if(power===0) {
-          power=1;
-          $(".level p").html(power);
+          power=1;  
+            $(".level").css("font-size", "1vw"); 
+            $(".level p").css("margin-top", "-0.3vw");
+            $(".level p").html(power);
           }
           else {
             power=0;
