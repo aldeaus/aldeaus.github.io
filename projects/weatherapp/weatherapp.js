@@ -2,7 +2,7 @@ $(document).ready(function() {
   
   navigator.geolocation.getCurrentPosition(function(position) {
     
-    $.getJSON('http://api.openweathermap.org/data/2.5/weather?lat='+position.coords.latitude+'&lon=' + position.coords.longitude     +'&units=metric&APPID=2141aaf5ed67fb041395fafc54cf37fe',function(data) {
+    $.getJSON('https://api.openweathermap.org/data/2.5/weather?lat='+position.coords.latitude+'&lon=' + position.coords.longitude     +'&units=metric&APPID=2141aaf5ed67fb041395fafc54cf37fe',function(data) {
           
       $(".location").html(data.name +" "+ data.sys.country);
       $(".tempval").html(Math.floor(data.main.temp)+" C");
