@@ -11,7 +11,29 @@
         
     </head>
     <body>
-        <script type="text/babel" src="markdownpreviewer.js">
+        <script type="text/babel">
+            var Getmarkdown = React.createClass({
+  displayName: "Getmarkdown",
+
+  getInitialState: function getInitialState() {
+    return { marked: "I'm a heading!  \n==============\nI'm a smaller heading..  \n-----------------------  \n### I'm yet another smaller heading...  \n#### I'm even smaller yet...  \n  \n~~I was a mistake~~  \n  \nI'm a paragraph because there is a blank line between  \nme and the mistake...  \n  \n*Hey, I'm italicized* **and I'm strong!**  \n  \nThings to do:  \n  \n* look to the right  \n*  ohhh! I'm second..  \n  \n*[see ya! ;)](https://www.google.com)*", markup: marked("I'm a heading!  \n==============\nI'm a smaller heading..  \n-----------------------  \n### I'm yet another smaller heading...  \n#### I'm even smaller yet...  \n  \n~~I was a mistake~~  \n  \nI'm a paragraph because there is a blank line between  \nme and the mistake...  \n  \n*Hey, I'm italicized* **and I'm strong!**  \n  \nThings to do:  \n  \n* look to the right  \n*  ohhh! I'm second..  \n  \n*[see ya! ;)](https://www.google.com)*") };
+  },
+  handleChange: function handleChange(event) {
+    var output = marked(event.target.value);
+    this.setState({ marked: event.target.value, markup: output });
+  },
+  render: function render() {
+    return React.createElement(
+      "div",
+      null,
+      React.createElement("textarea", { id: "markdown", value: this.state.marked, onChange: this.handleChange }),
+      React.createElement("div", { id: "previewer", dangerouslySetInnerHTML: { __html: this.state.markup } })
+    );
+  }
+});
+
+ReactDOM.render(React.createElement(Getmarkdown, null), document.body);
+
         </script>
     </body>
 </html>
